@@ -60,15 +60,19 @@ body {
 	font-size: 36px;
 	font-weight: 200;
 	letter-spacing: -0.02em;
-	color: #333;
+	color: #FFFFFF;
 
-	background: #FFFFFF;
+	background-image: url("bg.png");
+	background-position: center bottom;
+
+
+	/*background: #FFFFFF;
 	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
 	background: -webkit-gradient(radial, center center, 0px, center center, 80%, color-stop(30%,rgba(255,255,255,1)), color-stop(80%,rgba(175,175,175,1)));
 	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
 	background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
 	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
-	background: radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
+	background: radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);*/
 }
 
 
@@ -93,7 +97,7 @@ figure{
 }
 
 .blackout p{
-	color: #FF0000;
+	color: #5A90FF;
 }
 
 .reveal section img.transparent{
@@ -117,11 +121,21 @@ figure{
 .reveal h5, 
 .reveal h6 {
 	margin: 0 0 20px 0;
-	color: #333;
 	font-family: "league-gothic", sans-serif;
 	line-height: 0.9em;
-	color: #FF0000;
-	text-align: left;
+	color: #5A90FF;
+	text-align: center;
+
+}
+
+.reveal h1 strong, 
+.reveal h2 strong, 
+.reveal h3 strong, 
+.reveal h4 strong, 
+.reveal h5 strong, 
+.reveal h6 strong{
+	font-weight: normal;
+	color: #FFFFFF;
 
 }
 
@@ -156,7 +170,7 @@ figure{
 	width: 65%;
 	text-align: right;
 	display: inline-block;
-	color: #666;
+	color: #FFFFFF;
 }
 
 .question h1
@@ -173,7 +187,7 @@ figure{
  *********************************************/
 
 .reveal a:not(.image) {
-	color: #FF0000;
+	color: #5A90FF;
 	text-decoration: none;
 
 	-webkit-transition: color .15s ease;
@@ -183,14 +197,13 @@ figure{
 	        transition: color .15s ease;
 }
 	.reveal a:not(.image):hover {
-		text-shadow: none;
 		border: none;
 		border-radius: 2px;
 	}
 
 .reveal .roll span:after {
 	color: #fff;
-	background: #FF0000;
+	background: #5A90FF;
 }
 
 /*********************************************
@@ -225,7 +238,7 @@ figure{
 .reveal blockquote {
 	background-color: #dddddd;
 	color: #000000;
-	border: 1px solid  #ff0000;
+	border: 1px solid  #5A90FF;
 }
 
 .reveal p {
@@ -241,7 +254,6 @@ figure{
 }
 	.reveal .controls a.enabled {
 		color: #3b759e;
-		text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
 	}
 
 
@@ -265,4 +277,19 @@ figure{
 
 .reveal .roll {
 
+}
+.title h1{
+	text-align: center;
+}
+.title p{
+	text-align: center;
+	font-size: .9em;
+}
+
+.question h1{
+	text-align: center;
+}
+.question p{
+	text-align: center;
+	font-size: .9em;
 }
