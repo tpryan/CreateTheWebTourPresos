@@ -292,8 +292,16 @@ figure{
 .title h1, .title h2{
 	text-align: center;
 	color: #FFFFFF;
-	text-transform: none;
 }
+
+.title h1{
+	font-size: 3em;
+}
+
+.title h2{
+	font-size: 2.5em;
+}
+
 .reveal .title p{
 	text-align: center;
 	font-size: 1.5em;
