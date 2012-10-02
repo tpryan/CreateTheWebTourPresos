@@ -349,6 +349,7 @@ figure{
 	font-size: 1.2em;
 	text-align: left;
 	text-transform: none;
+	font-family: "AdobeClean-Light", "league-gothic", sans-serif;
 
 }
 
@@ -402,6 +403,18 @@ figure{
 
 .reveal section h3.text-code{
 	color: rgb(82,222,198);
+}
+
+.reveal section h1.text-reflow{
+	color: rgb(97,220,254);
+}
+
+.reveal section h2.text-reflow{
+	color: rgb(97,220,254);
+}
+
+.reveal section h3.text-reflow{
+	color: rgb(97,220,254);
 }
 
 
