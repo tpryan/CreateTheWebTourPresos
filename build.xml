@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="test.ant" name="reveal_template" basedir=".">
+<project default="test.ant" name="createtheweb" basedir=".">
 
 	<property file="build.properties"/>
 
