@@ -82,7 +82,7 @@ body {
 
 em{
 	font-style: italic;
-	font-family: "AdobeClean-Light", "sorts-mill-goudy";
+	font-family: "AdobeClean-LightIt", "sorts-mill-goudy";
 }
 
 figure{
@@ -423,6 +423,30 @@ figure{
 
 .reveal section h3.text-reflow{
 	color: rgb(97,220,254);
+}
+
+.reveal section h1.text-wf{
+	color: rgb(254,205,71);
+}
+
+.reveal section h2.text-wf{
+	color: rgb(254,205,71);
+}
+
+.reveal section h3.text-wf{
+	color: rgb(254,205,71);
+}
+
+.reveal section h1.text-dw{
+	color: rgb(172,238,41);
+}
+
+.reveal section h2.text-dw{
+	color: rgb(172,238,41);
+}
+
+.reveal section h3.text-dw{
+	color: rgb(172,238,41);
 }
 
 
