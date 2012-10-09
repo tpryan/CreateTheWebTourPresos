@@ -69,13 +69,6 @@ body {
 
 	
 
-	/*background: #FFFFFF;
-	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 80%, color-stop(30%,rgba(255,255,255,1)), color-stop(80%,rgba(175,175,175,1)));
-	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
-	background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
-	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);
-	background: radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 30%,rgba(175,175,175,1) 80%);*/
 }
 
 
@@ -92,7 +85,10 @@ figure{
 }
 
 .blackout .state-background {
-	background: rgba( 0, 0, 0, 0.9 );
+	background-image: url("grid.png");
+	background-position: center bottom;
+	background-repeat: repeat-x;
+
 }
 
 .blackout strong{
@@ -127,11 +123,13 @@ figure{
 	font-weight: normal;
 	margin: 0 0 20px 0;
 	font-family: "AdobeClean-SemiCn", "league-gothic", sans-serif;
-	line-height: 0.9em;
-	color: #5A90FF;
+	line-height: 1.2em;
+	color: #FFFFFF;
 	text-align: center;
 
 }
+
+
 
 .reveal h1 strong, 
 .reveal h2 strong, 
@@ -162,6 +160,10 @@ figure{
 	width: 100%;
 }
 
+.reveal li{
+	margin-bottom: 20px;
+}
+
 .reveal img, .reveal a img{
 	text-align: center;
 	margin: 0 auto;
@@ -181,6 +183,7 @@ figure{
 .question h1
 {
 	text-align: center;
+	text-transform: none;
 }
 
 .reveal figcaption h4{
@@ -450,8 +453,51 @@ figure{
 }
 
 
+.reveal section h1.text-cc{
+	color: rgb(255,0,0);
+}
+
+.reveal section h2.text-cc{
+	color: rgb(255,0,0);
+}
+
+.reveal section h3.text-cc{
+	color: rgb(255,0,0);
+}
+
+.reveal section h1.text-an{
+	color: rgb(178,170,252);
+}
+
+.reveal section h2.text-an{
+	color: rgb(178,170,252);
+}
+
+.reveal section h3.text-an{
+	color: rgb(178,170,252);
+}
+
+.reveal section h1.text-typekit{
+	color: rgb(157,193,68);
+}
+
+.reveal section h2.text-typekit{
+	color: rgb(157,193,68);
+}
+
+.reveal section h3.text-typekit{
+	color: rgb(157,193,68);
+}
 
 .reveal .demo h2{
 	color: #FFFFFF;
 }
 
+.reveal .keynote-intro p{
+	text-align: center;
+
+}
+.reveal .keynote-intro h3{
+	font-family: "AdobeClean-Light", "league-gothic", sans-serif;
+
+}
