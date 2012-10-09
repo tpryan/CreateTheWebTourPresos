@@ -626,6 +626,12 @@ figure{
 
 }
 
+.reveal .keynote-edge h1{
+	font-family: "AdobeClean-Light", "source_sans_pro_lightregular", sans-serif;
+	font-size: 1.7em;
+	text-transform: none;
+}
+
 .reveal .speakers h1{
 	font-family: "AdobeClean-Light", "source_sans_pro_lightregular", sans-serif;
 	font-size: 2em;
