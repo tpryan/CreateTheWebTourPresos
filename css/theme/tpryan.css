@@ -1,52 +1,176 @@
-/* Regular */
+/* SourceSansRegular */
 @font-face {
-    font-family: 'league-gothic';
-    src: url('fonts/leaguegothic-regular-webfont.eot');
-    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-family: 'SourceSans';
+    src: url('fonts/sourcesans-regular-webfont.eot');
+    src: url('fonts/sourcesans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesans-regular-webfont.woff') format('woff'),
+         url('fonts/sourcesans-regular-webfont.ttf') format('truetype'),
+         url('fonts/sourcesans-regular-webfont.svg#SourceSansRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
-/* Italic */
-@font-face {
-    font-family: 'league-gothic';
-    src: url('fonts/leaguegothic-italic-webfont.eot');
-    src: url('fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-italic-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-italic-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
-    font-weight: normal;
-    font-style: italic;
 
-}
-
-/* Regular */
 @font-face {
-    font-family: 'sorts-mill-goudy';
-    src: url('fonts/GoudyStM-webfont.eot');
-    src: url('fonts/GoudyStM-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/GoudyStM-webfont.woff') format('woff'),
-         url('fonts/GoudyStM-webfont.ttf') format('truetype'),
-         url('fonts/GoudyStM-webfont.svg#league_gothicregular') format('svg');
+    font-family: 'source_sans_pro_blackregular';
+    src: url('fonts/sourcesanspro-black-webfont.eot');
+    src: url('fonts/sourcesanspro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-black-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-black-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-black-webfont.svg#source_sans_pro_blackregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
-/* Italic */
+
+
+
 @font-face {
-    font-family: 'sorts-mill-goudy';
-    src: url('fonts/GoudyStM-Italic-webfont.eot');
-    src: url('fonts/GoudyStM-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/GoudyStM-Italic-webfont.woff') format('woff'),
-         url('fonts/GoudyStM-Italic-webfont.ttf') format('truetype'),
-         url('fonts/GoudyStM-Italic-webfont.svg#league_gothic_italicregular') format('svg');
+    font-family: 'source_sans_pro_blackitalic';
+    src: url('fonts/sourcesanspro-blackit-webfont.eot');
+    src: url('fonts/sourcesanspro-blackit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-blackit-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-blackit-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-blackit-webfont.svg#source_sans_pro_blackitalic') format('svg');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('fonts/sourcesanspro-bold-webfont.eot');
+    src: url('fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_probold_italic';
+    src: url('fonts/sourcesanspro-boldit-webfont.eot');
+    src: url('fonts/sourcesanspro-boldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-boldit-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-boldit-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-boldit-webfont.svg#source_sans_probold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_pro_extralightRg';
+    src: url('fonts/sourcesanspro-extralight-webfont.eot');
+    src: url('fonts/sourcesanspro-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-extralight-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-extralight-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-extralight-webfont.svg#source_sans_pro_extralightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_pro_extralightIt';
+    src: url('fonts/sourcesanspro-extralightit-webfont.eot');
+    src: url('fonts/sourcesanspro-extralightit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-extralightit-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-extralightit-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-extralightit-webfont.svg#source_sans_pro_extralightIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('fonts/sourcesanspro-it-webfont.eot');
+    src: url('fonts/sourcesanspro-it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-it-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-it-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-it-webfont.svg#source_sans_proitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_pro_lightregular';
+    src: url('fonts/sourcesanspro-light-webfont.eot');
+    src: url('fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-light-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-light-webfont.svg#source_sans_pro_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_pro_lightitalic';
+    src: url('fonts/sourcesanspro-lightit-webfont.eot');
+    src: url('fonts/sourcesanspro-lightit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-lightit-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-lightit-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-lightit-webfont.svg#source_sans_pro_lightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_pro_semiboldRg';
+    src: url('fonts/sourcesanspro-semibold-webfont.eot');
+    src: url('fonts/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-semibold-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-semibold-webfont.svg#source_sans_pro_semiboldRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_pro_semiboldIt';
+    src: url('fonts/sourcesanspro-semiboldit-webfont.eot');
+    src: url('fonts/sourcesanspro-semiboldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-semiboldit-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-semiboldit-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-semiboldit-webfont.svg#source_sans_pro_semiboldIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -56,7 +180,7 @@ body {
 	margin: 0;
 	overflow: hidden;
 
-	font-family: "AdobeClean-Light", "sorts-mill-goudy";
+	font-family: "AdobeClean-Light","source_sans_pro_lightregular";
 	font-size: 36px;
 	font-weight: 200;
 	letter-spacing: -0.02em;
@@ -75,7 +199,7 @@ body {
 
 em{
 	font-style: italic;
-	font-family: "AdobeClean-LightIt", "sorts-mill-goudy";
+	font-family: 'source_sans_pro_lightitalic', "AdobeClean-LightIt";
 }
 
 figure{
@@ -122,7 +246,7 @@ figure{
 .reveal h6 {
 	font-weight: normal;
 	margin: 0 0 20px 0;
-	font-family: "AdobeClean-SemiCn", "league-gothic", sans-serif;
+	font-family: "AdobeClean-SemiCn", "source_sans_pro_semiboldRg", sans-serif;
 	line-height: 1.2em;
 	color: #FFFFFF;
 	text-align: center;
@@ -288,7 +412,7 @@ figure{
 }
 
 .title{
-	font-family: "AdobeClean-SemiCn", "league-gothic", sans-serif;
+	font-family:  "AdobeClean-SemiCn", "source_sans_pro_semiboldRg", sans-serif;
 
 }
 
@@ -360,7 +484,7 @@ figure{
 	font-size: 1.2em;
 	text-align: left;
 	text-transform: none;
-	font-family: "AdobeClean-Light", "league-gothic", sans-serif;
+	font-family: "AdobeClean-Light", "source_sans_pro_lightregular", sans-serif;
 
 }
 
@@ -498,6 +622,32 @@ figure{
 
 }
 .reveal .keynote-intro h3{
-	font-family: "AdobeClean-Light", "league-gothic", sans-serif;
+	font-family: "AdobeClean-Light", "source_sans_pro_lightregular", sans-serif;
 
 }
+
+.reveal .speakers h1{
+	font-family: "AdobeClean-Light", "source_sans_pro_lightregular", sans-serif;
+	font-size: 2em;
+	font-variant: small-caps;
+	text-transform: none;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+.reveal .speakers p{
+	margin-top: 10px;
+}
+
+.reveal .speakers img{
+	float: left;
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.reveal .speakers .speaker{
+	clear: both;
+}
+
