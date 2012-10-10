@@ -1,0 +1,258 @@
+<!doctype html>  
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Animation - Create The Web</title>
+		<meta name="description" content="A template written in reveal.">
+		<meta name="author" content="Terrence Ryan">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/theme/tpryan.css" id="theme">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<script>
+			// If the query includes 'print-pdf' we'll use the PDF print sheet
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<img src="img/adobe.gif" class="adobelogo" />
+		<div class="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<section class="title">
+						<h1><br />Create the Web</h1>
+						<hr />
+						<h2>Animation</h2>
+						<br />
+						<p><img src="img/twitter.png" class="tpng"> #CreateTheWeb</p>
+					</section>
+
+					<section class="question">
+						<h2><br /><br />Who are <strong>you</strong>?</h2>
+					</section>
+				</section>
+				<section>
+					<section>
+						<br /><br />
+		            	<img src="img/plug-in.png" class="transparent">
+		            </section>
+					<section>
+						<br /><br />
+		            	<img src="img/web-stack.png" class="transparent">
+		            </section>
+
+		            <section>
+						<br />
+	                	<img style="float:left; margin-right: 40px;" src="img/code-preview.png" class="transparent">
+	                	<br /><br />
+	                	<p class="fragment">Plug-in free, but ...</p>
+	                    <p class="fragment">Hand coded</p>
+	                	<p class="fragment">Time consuming</p>
+		            </section>
+
+
+		            <section>
+
+		            <style>
+			            .reveal .hardbutton{
+			            	padding-top: 50px;
+			            	float: right;
+			            } 
+		            	.reveal .hardbutton a {
+							  text-align: center; 
+							  font: "AdobeClean-SemiCn", "source_sans_pro_semiboldRg", Helvetica, Arial, sans-serif;
+							  color: #FFF;
+							  width: 200px;
+							  border: 1px solid #DDA9fC;
+							  padding: 20px 0;
+							  -webkit-border-radius: 8px;
+							  -moz-border-radius: 8px;
+							  border-radius: 8px;
+							  -webkit-box-shadow: #666 0px 0px 10px;
+							  -moz-box-shadow: #666 0px 0px 10px;
+							  box-shadow: #666 0px 0px 10px;
+							  background: #200038;
+
+							  -webkit-transition: all 200ms ease;
+							   -moz-transition: all 200ms ease;
+							    -ms-transition: all 200ms ease;
+							        transition: all 200ms ease;
+							}
+						.reveal .hardbutton a:hover{
+							text-align: center; 
+							font: "AdobeClean-SemiCn", "source_sans_pro_semiboldRg", Helvetica, Arial, sans-serif;
+							color: #DDA9fC;
+							width: 200px;
+							border: 1px solid #DDA9fC;
+							padding: 20px 0;
+							-webkit-border-radius: 8px;
+							-moz-border-radius: 8px;
+							border-radius: 8px;
+							-webkit-box-shadow: #FFF 0px 0px 5px;
+							-moz-box-shadow: #FFF 0px 0px 5px;
+							box-shadow: #FFF 0px 0px 10px;
+							background: #200038;
+						}
+
+						.reveal .hardbutton .roll{
+							-webkit-perspective: 0;
+							-moz-perspective: 0;
+							-ms-perspective: 0;
+							perspective: 0;
+						}
+
+						.reveal .roll:hover span {
+						    background: rgba(0,0,0,0.0);
+
+						    -webkit-transform: none;
+						       -moz-transform: none;
+						        -ms-transform: none;
+						            transform: none;
+						}
+						.reveal .hardbutton .roll span:after {
+							content: none;
+							display: none;
+						}
+
+
+		            </style>
+		        <div class="hardbutton fragment">
+	            	<a href="">Click me!</a>
+	            </div>    
+
+            	<pre class="fragment" style="margin-top: 40px; margin-right: 39px; font-size: 16px; width: 450px; float: left;"><code contenteditable>.button {
+  background: #200038;
+  text-align: center; 
+  font: "source_sans_pro_semiboldRg";
+  color: #FFF;
+  width: 200px;
+  border: 1px solid #DDA9fC;
+  padding: 20px 0;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: #666 0px 0px 10px;
+     -moz-box-shadow: #666 0px 0px 10px;
+          box-shadow: #666 0px 0px 10px;
+  -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+      -ms-transition: all 200ms ease;
+          transition: all 200ms ease;
+}
+.button:hover{
+  -webkit-box-shadow: #FFF 0px 0px 5px;
+     -moz-box-shadow: #FFF 0px 0px 5px;
+          box-shadow: #FFF 0px 0px 10px;
+}
+
+</code></pre>
+				
+            		</section>
+
+				</section>	
+
+				<section>
+					<section class="keynote-intro">
+						<img src="img/edge_animate_mn.png" class="transparent" />
+						<h3 class="text-an">Adobe Edge Animate</h3>
+					</section>
+
+					<section class="product-intro">
+						<img src="img/edge_animate_mn.png"  class="transparent" />
+						<div class="text-holder" style="margin-top:30px;">
+							<ul>
+								<li>Works seamlessly across modern browsers and devices</li>
+								<li>Create accessible content</li>
+								<li>Keyframe based intuitive tooling</li>
+								<li>Help bridge the gap between creativity and code</li>
+
+							</ul>
+						</div>
+					</section>
+					<section class="demo">
+						<img src="img/edge_animate_mn.png"  class="transparent" />
+						<br />
+						<h2>Demo</h2>
+						<h3 class="text-an">Adobe Edge Animate</h3>
+						<p style="text-align:center;">Animate in Action</p>
+					</section>
+					<section class="demo">
+						<img src="img/edge_animate_mn.png"  class="transparent" />
+						<br />
+						<h2>Demo</h2>
+						<h3  class="text-an">Adobe Edge Animate</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/animate/samples/" target="_new">Samples</a></p>
+					</section>		
+						
+
+				</section>	
+
+
+				<section>	
+					<section>
+						<h1><br />Conclusions</h1>
+					</section>
+
+					<section>
+						<style type="text/css">
+							.animate-workflow{
+								position: absolute;
+								top: 0;
+								left: 0;
+							}
+						</style>
+
+		            	<img src="img/animate-web.png" class="transparent animate-workflow">
+		            	<img src="img/animate-publishing.png" class="transparent animate-workflow fragment">
+		            	<img src="img/animate-desktop.png" class="transparent animate-workflow fragment">
+		            	<img src="img/animate-mobile.png" class="transparent animate-workflow fragment">
+
+					</section>
+
+					
+					<section>
+						<h2>Questions, Comments, Feedback?</h2>
+						
+						<p>Preso will be up at: <br />
+						<a href="http://terrenceryan.com/createtheweb">http://terrenceryan.com/createtheweb</a></p> 
+						<p>Feel free to contact me:</p>
+						<ul>
+							<li><a href="mailto:terry.ryan@adobe.com">terry.ryan@adobe.com</a></li>
+							<li><a href="http://terrenceryan.com">http://terrenceryan.com</a></li>
+							<li>Twitter: <a href="http://twitter.com/tpryan">@tpryan</a></li>
+							<li>github: <a href="http://github.com/tpryan">tpryan</a></li>
+						</ul>
+					</section>
+				</section>	
+			</div>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script src="js/config.js"></script>
+	</body>
+</html>

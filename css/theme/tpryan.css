@@ -195,7 +195,10 @@ body {
 
 }
 
-
+.reveal code{
+	font-family: 'SourceCodePro-Regular', monospace;
+	
+}
 
 em{
 	font-style: italic;
