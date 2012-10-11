@@ -16,6 +16,12 @@
 			// If the query includes 'print-pdf' we'll use the PDF print sheet
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
+		<!--Adobe Edge Runtime-->
+	    <script type="text/javascript" charset="utf-8" src="animate/index_edgePreload.js"></script>
+	    <style>
+	        .edgeLoad-EDGE-171675818 { visibility:hidden; }
+	    </style>
+		<!--Adobe Edge Runtime End-->
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -180,6 +186,12 @@
 
 							</ul>
 						</div>
+					</section>
+					<section class="demo">
+						<div id="Stage" class="EDGE-171675818">
+						</div>
+						<h2>Demo</h2>
+						<h3 class="text-an">Adobe Edge Animate</h3>
 					</section>
 					<section class="demo">
 						<img src="img/edge_animate_mn.png"  class="transparent" />
