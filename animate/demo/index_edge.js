@@ -6,7 +6,7 @@
 var im='images/';
 
 var fonts = {};
-   fonts['"AdobeClean-Light", "source_sans_pro_lightregular"']='<link rel=\"stylesheet\" href=\"animate\/fonts.css\">';
+   fonts['"AdobeClean-Light", "source_sans_pro_lightregular"']='<link rel=\"stylesheet\" href=\"animate\/demo\/fonts.css\">';
 
 
 var resources = [
@@ -41,7 +41,7 @@ var symbols = {
             id:'an',
             type:'image',
             rect:['38px','18px','75px','75px','auto','auto'],
-            fill:["rgba(0,0,0,0)","animate/images/edge_animate_mn.png",'0px','0px']
+            fill:["rgba(0,0,0,0)","animate/demo/images/edge_animate_mn.png",'0px','0px']
          },
          {
             id:'rs_an',
@@ -68,7 +68,7 @@ var symbols = {
             id:'bd',
             type:'image',
             rect:['350px','18px','75px','73px','auto','auto'],
-            fill:["rgba(0,0,0,0)","animate/images/phonegap_build_mn.png",'0px','0px']
+            fill:["rgba(0,0,0,0)","animate/demo/images/phonegap_build_mn.png",'0px','0px']
          },
          {
             id:'rs_bd',
@@ -95,7 +95,7 @@ var symbols = {
             id:'rf',
             type:'image',
             rect:['455px','18px','75px','73px','auto','auto'],
-            fill:["rgba(0,0,0,0)","animate/images/edge_reflow_mn.png",'0px','0px']
+            fill:["rgba(0,0,0,0)","animate/demo/images/edge_reflow_mn.png",'0px','0px']
          },
          {
             id:'rs_rf',
@@ -122,7 +122,7 @@ var symbols = {
             id:'tk',
             type:'image',
             rect:['560px','18px','75px','73px','auto','auto'],
-            fill:["rgba(0,0,0,0)","animate/images/typekit.png",'0px','0px']
+            fill:["rgba(0,0,0,0)","animate/demo/images/typekit.png",'0px','0px']
          },
          {
             id:'rs_tk',
@@ -149,7 +149,7 @@ var symbols = {
             id:'wf',
             type:'image',
             rect:['665px','18px','75px','73px','auto','auto'],
-            fill:["rgba(0,0,0,0)","animate/images/edge_web_fonts_mn.png",'0px','0px']
+            fill:["rgba(0,0,0,0)","animate/demo/images/edge_web_fonts_mn.png",'0px','0px']
          },
          {
             id:'rs_wf',
@@ -160,7 +160,7 @@ var symbols = {
             id:'in',
             type:'image',
             rect:['140px','18px','75px','73px','auto','auto'],
-            fill:["rgba(0,0,0,0)","animate/images/edge_inspect_mn.png",'0px','0px']
+            fill:["rgba(0,0,0,0)","animate/demo/images/edge_inspect_mn.png",'0px','0px']
          },
          {
             id:'rs_in',
@@ -203,7 +203,7 @@ var symbols = {
             id:'co',
             type:'image',
             rect:['245px','18px','75px','73px','auto','auto'],
-            fill:["rgba(0,0,0,0)","animate/images/edge_code_mn.png",'0px','0px']
+            fill:["rgba(0,0,0,0)","animate/demo/images/edge_code_mn.png",'0px','0px']
          },
          {
             id:'rs_co',
@@ -586,7 +586,7 @@ var symbols = {
       id: 'rs_an',
       type: 'image',
       rect: ['0px','0px','107px','62px','auto','auto'],
-      fill: ['rgba(0,0,0,0)','animate/images/redsheet.png','0px','0px']
+      fill: ['rgba(0,0,0,0)','animate/demo/images/redsheet.png','0px','0px']
    }],
    symbolInstances: [
    ]

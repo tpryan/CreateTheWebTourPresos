@@ -47,12 +47,12 @@ if(document.addEventListener ){
     };
 
    aLoader = [
-    { load: "animate/edge_includes/jquery-1.7.1.min.js"},
-    { load: "animate/edge_includes/jquery.easing.1.3.js"},
-    { load: "animate/edge_includes/edge.1.0.0.min.js"},
-        {test: !hasJSON, yep:"animate/edge_includes/json2_min.js"},
-          { load: "animate/index_edge.js"},
-          { load: "animate/index_edgeActions.js"}];
+    { load: "animate/demo/edge_includes/jquery-1.7.1.min.js"},
+    { load: "animate/demo/edge_includes/jquery.easing.1.3.js"},
+    { load: "animate/demo/edge_includes/edge.1.0.0.min.js"},
+        {test: !hasJSON, yep:"animate/demo/edge_includes/json2_min.js"},
+          { load: "animate/demo/index_edge.js"},
+          { load: "animate/demo/index_edgeActions.js"}];
 
 loadResources(aLoader, doDelayLoad);
 
