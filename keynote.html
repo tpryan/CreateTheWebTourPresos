@@ -15,6 +15,12 @@
 			// If the query includes 'print-pdf' we'll use the PDF print sheet
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
+		<!--Adobe Edge Runtime-->
+		    <script type="text/javascript" charset="utf-8" src="animate/keynote_reveal/index_edgePreload.js"></script>
+		    <style>
+		        .edgeLoad-EDGE-556270 { visibility:hidden; }
+		    </style>
+		<!--Adobe Edge Runtime End-->
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -246,14 +252,9 @@
 				</section>
 				<section>
 					<section class="keynote-edge">
+						<div id="Stage" class="EDGE-556270">
+						</div>
 						<h1>Adobe Edge Tools &amp; Services</h1>
-						<img src="img/edge_animate_mn.png" width="170" class="transparent" />
-						<img src="img/edge_code_mn.png" width="170" class="transparent" />
-						<img src="img/edge_inspect_mn.png" width="170" class="transparent" />
-						<img src="img/edge_reflow_mn.png" width="170" class="transparent" />
-						<img src="img/edge_web_fonts_mn.png" width="170" class="transparent" />
-						<img src="img/typekit.png" width="170" class="transparent" />
-						<img src="img/phonegap_build_mn.png" width="170" class="transparent" />
 					</section>
 
 					<section>

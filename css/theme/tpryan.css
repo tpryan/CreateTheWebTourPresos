@@ -184,7 +184,7 @@ body {
 	font-size: 36px;
 	font-weight: 200;
 	letter-spacing: -0.02em;
-	color: #FFFFFF;
+	color: #CCCCCC;
 
 	background-color: #000000;
 	background-image: url("bg.png");
@@ -202,7 +202,7 @@ body {
 
 em{
 	font-style: italic;
-	font-family: "AdobeClean-LightIt",'source_sans_pro_lightitalic' ;
+	font-family: "AdobeClean-LightIt",'SourceSans' ;
 }
 
 figure{
@@ -251,7 +251,7 @@ figure{
 	margin: 0 0 20px 0;
 	font-family: "AdobeClean-SemiCn", "source_sans_pro_semiboldRg", sans-serif;
 	line-height: 1.2em;
-	color: #FFFFFF;
+	color: #CCCCCC;
 	text-align: center;
 
 }
@@ -264,7 +264,8 @@ figure{
 .reveal h4 strong, 
 .reveal h5 strong, 
 .reveal h6 strong{
-	font-weight: normal;
+	font-family: "AdobeClean", "source_sans_pro_semiboldRg", sans-serif;
+	font-weight: bold;
 	color: #FFFFFF;
 
 }
