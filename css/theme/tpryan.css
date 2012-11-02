@@ -465,9 +465,7 @@ figure{
 
 }
 
-.reveal img.tpng{
-	border: none;
-}
+
 
 .reveal .product-intro{
 	text-align: left;
@@ -663,3 +661,22 @@ figure{
 	clear: both;
 }
 
+#twitter-call{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	font-size:25px;
+	text-shadow: 2px 2px 2px #000;
+	line-height: 1;
+}
+#twitter-call p{
+	margin: 0;
+}
+
+.reveal img.tpng{
+	border: none;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+}
