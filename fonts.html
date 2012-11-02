@@ -1,0 +1,189 @@
+<!doctype html>  
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Web Fonts - Create The Web</title>
+		<meta name="description" content="A template written in reveal.">
+		<meta name="author" content="Terrence Ryan">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/theme/tpryan.css" id="theme">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<script>
+			// If the query includes 'print-pdf' we'll use the PDF print sheet
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<img src="img/adobe.gif" class="adobelogo" />
+		<div class="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<section class="title">
+						<h1><br />Create the Web</h1>
+						<hr />
+						<h2>Web Typography</h2>
+						<br />
+						<p><img src="img/twitter.png" class="tpng"> #CreateTheWeb</p>
+					</section>
+
+					<section class="question">
+						<h1>Who are <strong>you</strong>?</h1>
+					</section>
+				</section>
+				<section>
+					<style>
+
+						.font-name{
+							font-size: 1.3em;
+							line-height: 1.1;
+						}
+						.font-arial{
+							font-family: "Arial";
+						}
+						.font-helvetica{
+							font-family: "helvetica";
+						}
+						.font-tnr{
+							font-family: "Times New Roman";
+						}
+						.font-times{
+							font-family: "Times";
+						}
+						.font-cn{
+							font-family: "Courier New";
+						}
+						.font-verdana{
+							font-family: "Verdana";
+						}
+						.font-georgia{
+							font-family: "Georgia";
+						}
+						.font-trebuchet{
+							font-family: "Trebuchet MS";
+						}
+						.font-impact{
+							font-family: "Impact";
+						}
+						.font-gillsans{
+							font-family: "Gill Sans";
+						}
+
+						.font-genericsans{
+							font-family: sans-serif;
+						}
+
+					</style>
+
+
+					<section>
+						<div class="font-name font-arial">Arial</div>
+						<div class="font-name font-helvetica">Helvetica</div>
+						<div class="font-name font-tnr">Times New Roman</div>
+						<div class="font-name font-times">Times</div>
+						<div class="font-name font-cn">Courier New</div>
+						<div class="font-name font-verdana">Verdana</div>
+						<div class="font-name font-georgia">Georgia</div>
+						<div class="font-name font-trebuchet">Trebuchet MS</div>
+						<div class="font-name font-impact">Impact</div>
+						<div class="font-name font-gillsans">Gill Sans</div>
+					</section>
+
+					<section>
+						<code>
+							<p>font-family: <span class="font-gillsans">"Gill Sans"</span>, <span class="font-helvetica">"Helvetica"</span>, <span class="font-arial">"Arial"</span>, <span class="font-genericsans">sans-serif</span>;</p>
+						</code>
+					</section>
+
+					<section>
+						<style type="text/css">
+							.fontvar1{
+								letter-spacing: -1px;
+							}
+
+							.fontvar2{
+								letter-spacing: -2px;
+								font-variant: small-caps;
+							}
+
+							.fontvar3{
+								letter-spacing: 5px;
+								text-transform: uppercase;
+							}
+
+							.fontvar4{
+								letter-spacing: -3px;
+								word-spacing: 15px;
+								font-variant: small-caps;
+							}
+						</style>
+
+						<div>
+							<p><span class="fontvar1 font-tnr">This is Times New Roman</span></p>
+							<p><span class="fontvar2 font-arial">This is Arial</span></p>
+							<p><span class="fontvar4 font-tnr">This is Times New Roman, too.</span></p>
+							<p><span class="fontvar3 font-arial">This is Arial, also.</span></p>
+
+							<p><span class="fontvar3 font-tnr">Even this is Times New Roman</span></p>
+							<p><span class="fontvar1 font-arial">This is Arial</span></p>
+							<p><span class="fontvar4 font-arial">This is Arial</span></p>
+							<p><span class="fontvar2 font-tnr">This is Times New Roman</span></p>
+						</div>	
+
+					</section>	
+				</section>	
+
+				<section>	
+					<section>
+						<h1><br />Conclusions</h1>
+					</section>
+
+					<section>
+						<h2>Questions, Comments, Feedback?</h2>
+						
+						<p>Preso will be up at: <br />
+						<a href="http://terrenceryan.com/createtheweb">http://terrenceryan.com/createtheweb</a></p> 
+						<p>Feel free to contact me:</p>
+						<ul>
+							<li><a href="mailto:terry.ryan@adobe.com">terry.ryan@adobe.com</a></li>
+							<li><a href="http://terrenceryan.com">http://terrenceryan.com</a></li>
+							<li>Twitter: <a href="http://twitter.com/tpryan">@tpryan</a></li>
+							<li>github: <a href="http://github.com/tpryan">tpryan</a></li>
+						</ul>
+					</section>
+				</section>
+
+				
+
+			</div>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script src="js/config.js"></script>
+	</body>
+</html>
