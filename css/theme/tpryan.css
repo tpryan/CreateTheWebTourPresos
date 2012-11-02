@@ -616,6 +616,9 @@ figure{
 .reveal section h3.text-typekit{
 	color: rgb(157,193,68);
 }
+.text-typekit{
+	color: rgb(157,193,68);
+}
 
 .reveal .demo h2{
 	color: #FFFFFF;
@@ -680,3 +683,12 @@ figure{
 	width: 30px;
 	height: 30px;
 }
+
+.reveal div.column{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
