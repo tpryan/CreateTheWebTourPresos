@@ -235,29 +235,23 @@
 					</section>
 
 					<style>
-						#webstandards img{
+						.webstandards img{
 							position: absolute;
 						}
 
-						#webstandards .w3c{
+						.webstandards .w3c{
 							width: 400px;
 							left: 80px;
 							top: 150px;	
 						}
 
-						#webstandards .webkit{
+						.webstandards .webkit{
 							width: 300px; 
 							position: absolute;
 							right: 80px;
 							top: 100px;	
 						}
 					</style>
-
-					<section id="webstandards">
-						<img src="img/w3c.png" class="transparent w3c" />
-						<img src="img/webkit.png" class="transparent webkit" />
-					
-					</section>
 
 					<section>
 						<h2><br /></h2>
@@ -295,6 +289,124 @@
 							<li>Productive without hiding the underlying web code</li>
 						</ul>
 					</section>
+				</section>	
+				<section>
+					<section>
+						<br /><br />
+		            	<img src="img/plug-in.png" class="transparent">
+		            </section>
+					<section>
+						<br /><br />
+		            	<img src="img/web-stack.png" class="transparent">
+		            </section>
+
+		            <section>
+						<br />
+	                	<img style="float:left; margin-right: 40px;" src="img/code-preview.png" class="transparent">
+	                	<br /><br />
+	                	<p class="fragment">Plug-in free, but ...</p>
+	                    <p class="fragment">Hand coded</p>
+	                	<p class="fragment">Time consuming</p>
+		            </section>
+
+
+		            <section>
+
+		            <style>
+			            .reveal .hardbutton{
+			            	padding-top: 50px;
+			            	float: right;
+			            } 
+		            	.reveal .hardbutton a {
+							  text-align: center; 
+							  font: "AdobeClean-SemiCn", "source_sans_pro_semiboldRg", Helvetica, Arial, sans-serif;
+							  color: #FFF;
+							  width: 200px;
+							  border: 1px solid #DDA9fC;
+							  padding: 20px 0;
+							  -webkit-border-radius: 8px;
+							  -moz-border-radius: 8px;
+							  border-radius: 8px;
+							  -webkit-box-shadow: #666 0px 0px 10px;
+							  -moz-box-shadow: #666 0px 0px 10px;
+							  box-shadow: #666 0px 0px 10px;
+							  background: #200038;
+
+							  -webkit-transition: all 200ms ease;
+							   -moz-transition: all 200ms ease;
+							    -ms-transition: all 200ms ease;
+							        transition: all 200ms ease;
+							}
+						.reveal .hardbutton a:hover{
+							text-align: center; 
+							font: "AdobeClean-SemiCn", "source_sans_pro_semiboldRg", Helvetica, Arial, sans-serif;
+							color: #DDA9fC;
+							width: 200px;
+							border: 1px solid #DDA9fC;
+							padding: 20px 0;
+							-webkit-border-radius: 8px;
+							-moz-border-radius: 8px;
+							border-radius: 8px;
+							-webkit-box-shadow: #FFF 0px 0px 5px;
+							-moz-box-shadow: #FFF 0px 0px 5px;
+							box-shadow: #FFF 0px 0px 10px;
+							background: #200038;
+						}
+
+						.reveal .hardbutton .roll{
+							-webkit-perspective: 0;
+							-moz-perspective: 0;
+							-ms-perspective: 0;
+							perspective: 0;
+						}
+
+						.reveal .roll:hover span {
+						    background: rgba(0,0,0,0.0);
+
+						    -webkit-transform: none;
+						       -moz-transform: none;
+						        -ms-transform: none;
+						            transform: none;
+						}
+						.reveal .hardbutton .roll span:after {
+							content: none;
+							display: none;
+						}
+
+
+		            </style>
+		        <div class="hardbutton fragment">
+	            	<a href="">Click me!</a>
+	            </div>    
+
+            	<pre class="fragment" style="margin-top: 40px; margin-right: 39px; font-size: 16px; width: 450px; float: left;"><code contenteditable>.button {
+  background: #200038;
+  text-align: center; 
+  font: "source_sans_pro_semiboldRg";
+  color: #FFF;
+  width: 200px;
+  border: 1px solid #DDA9fC;
+  padding: 20px 0;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: #666 0px 0px 10px;
+     -moz-box-shadow: #666 0px 0px 10px;
+          box-shadow: #666 0px 0px 10px;
+  -webkit-transition: all 200ms ease;
+     -moz-transition: all 200ms ease;
+      -ms-transition: all 200ms ease;
+          transition: all 200ms ease;
+}
+.button:hover{
+  -webkit-box-shadow: #FFF 0px 0px 5px;
+     -moz-box-shadow: #FFF 0px 0px 5px;
+          box-shadow: #FFF 0px 0px 10px;
+}
+
+</code></pre>
+				
+            		</section>
 
 					<section class="keynote-intro">
 						<p>Adobe Edge Tools &amp; Services</p>
@@ -303,6 +415,105 @@
 						<h4>Animate the Web</h4>
 					</section>
 
+
+					<section class="product-intro">
+						<img src="img/edge_animate_mn.png"  class="transparent" />
+						<div class="text-holder" style="margin-top:30px;">
+							<ul>
+								<li>Works seamlessly across modern browsers and devices</li>
+								<li>Create accessible content</li>
+								<li>Keyframe based intuitive tooling</li>
+								<li>Help bridge the gap between creativity and code</li>
+
+							</ul>
+						</div>
+					</section>
+					<section class="demo">
+						<img src="img/edge_animate_mn.png"  class="transparent" />
+						<br />
+						<h2>Demo</h2>
+						<h3  class="text-an">Adobe Edge Animate</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/animate/samples/" target="_new">Samples</a></p>
+					</section>		
+
+				</section>
+
+				<section>
+					<style>
+						#screens_crt{
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							z-index: 100;
+						}
+						#screens_laptop{
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							z-index: 0;
+							z-index: 100;
+						}
+						#screens_iphone{
+							position: absolute;
+							top: 0;
+							left: 300px;
+							z-index: 50;
+						}
+						#screens_aphone{
+							position: absolute;
+							top: 0;
+							left: 450px;
+							z-index: 50;
+						}
+						#screens_tablet{
+							position: absolute;
+							top: 175px;
+							left: 50px;
+							z-index: 175;
+						}
+						#screens_tablet_ls{
+							position: absolute;
+							top: 175px;
+							
+							z-index: 175;
+						}
+						#screens_ereader{
+							position: absolute;
+							top: 175px;
+							right: 50px;
+							z-index: 175;
+						}
+						#screens_tv{
+							position: absolute;
+							top: 100px;
+							z-index: 0;
+						}
+
+					</style>
+
+					<section>
+						<div id="screens_image_container">
+							<img src="img/crt.png" id="screens_crt" class="transparent fragment" />
+							<img src="img/laptop.png" id="screens_laptop" class="transparent fragment" />
+							<img src="img/iphone.png" id="screens_iphone" class="transparent fragment" />
+							<img src="img/aphone.png" id="screens_aphone" class="transparent fragment" />
+							<img src="img/tablet.png" id="screens_tablet" class="transparent fragment" />
+							<img src="img/tablet_ls.png" id="screens_tablet_ls" class="transparent fragment" />
+							<img src="img/ereader.png" id="screens_ereader" class="transparent fragment" />
+							<img src="img/tv.png" id="screens_tv" class="transparent fragment" />
+						</div>
+					</section>
+
+					<section class="question">
+						<h3><br /><br />If you haven't tested <br /><strong>on the device</strong>, <br />you haven't tested.</h3>
+					</section>
+					<section class="question">
+						<h2 style="font-size:3em;">If you haven't tested <br /><strong>on the device</strong>, <br />you haven't tested.</strong></h2>
+					</section>
+
+					<section class="question">
+						<h2><br /><br />Testing on devices is <strong>hard</strong>.</h2>
+					</section>
 					<section class="keynote-intro">
 						<p>Adobe Edge Tools &amp; Services</p>
 						<img src="img/edge_inspect_mn.png" class="transparent" />
@@ -310,11 +521,220 @@
 						<h4>Preview the Web</h4>
 					</section>
 
+					<section>
+						<style type="text/css">
+							.edge_inspect_holder{
+								position: relative;
+								height: 325px;
+								padding: 0;
+							}
+							.reveal section .edge_inspect_holder img{
+								margin-top: 0;
+							}
+							.edge_inspect_browser{
+								position: absolute;
+								top: 0;
+								left: 0;
+							}
+
+							.edge_inspect_phone{
+								position: absolute;
+								top: 0;
+								right: 0;
+							}
+						</style>
+						<div class="edge_inspect_holder">
+							<img src="img/edge_inspect_browser_home.png" width="500px" class="transparent edge_inspect_browser" />
+							<img src="img/edge_inspect_iphone_home.png" width="150px" class="transparent edge_inspect_phone" />
+							<img src="img/edge_inspect_browser_post.png" width="500px" class="transparent edge_inspect_browser fragment" />
+							<img src="img/edge_inspect_iphone_post.png" width="150px" class="transparent edge_inspect_phone fragment" />
+						</div>
+						<img src="img/edge_inspect_mn.png" width="150px"  class="transparent" />
+						
+						
+
+						
+					</section>
+
+
+					<section class="demo">
+						<img src="img/edge_inspect_mn.png"  class="transparent" />
+						<br />
+						<h2>Demo</h2>
+						<h3 class="text-inspect">Edge Inspect</h3>
+						<p style="text-align:center;"><a href="http://terrenceryan.com" target="_new">Sample App</a></p>
+					</section>
+				</section>
+				<section>
+
+
+					<!-- Phonegap animation styles -->
+					<style type="text/css">
+						.phonegap_table{
+							width: 100%;
+						}
+
+						.phonegap_table h4{
+							text-shadow: none;
+						}
+
+						.reveal section .phonegap_table img{
+							margin-top: 0;
+						}
+						.phonegap_table td{
+							text-align: center;
+							width: 25%;
+						}
+						.phonegap_table td h2, .phonegap_table td h4{
+							margin-top: 10px;
+							text-align: center;
+						}
+
+						.phonegap_table .android{
+							color: #A4C639;
+						}
+
+						.phonegap_table .objc{
+							color: #51a0ff;
+						}
+
+						.phonegap_table .bb{
+							color: #666666;
+						}
+
+						.phonegap_table .msred{
+							color: red;
+						}
+
+						.phonegap_table .msgreen{
+							color: green;
+						}
+
+						.phonegap_table .msblue{
+							color: blue;
+						}
+
+						.phonegap_table .msorange{
+							color: orange;
+						}
+					</style>
+
+					<section>
+
+						
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent fragment" /></td>
+								<td><img src="img/android_logo.png"  class="transparent fragment" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent fragment" /></td>
+								<td><img src="img/windows_logo.png"  class="transparent fragment" /></td>
+							</tr>
+							<tr>
+								<td><h4 class="fragment objc">Objective C</h4></td>
+								<td><h4 class="fragment android">Android Flavored Java</h4></td>
+								<td><h4 class="fragment bb">BlackBerry Flavored Java</h4></td>
+								<td><h4 class="fragment"><span class="msred">Whatever</span> <span class="msgreen">Microsoft is </span> <span class="msblue">doing </span> <span class="msorange">now</span></h4></td>
+							</tr>
+							<tr>
+								<td><img src="img/xcode_logo.png" class="transparent fragment" /></td>
+								<td><img src="img/eclipse_logo_android.png"  class="transparent fragment" /></td>
+								<td><img src="img/eclipse_logo_blackberry.png"  class="transparent fragment" /></td>
+								<td><img src="img/visual_studio_logo.png"  class="transparent fragment" /></td>
+							</tr>
+						</table>	
+					</section>
+
+					<section>
+
+						
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent"  /></td>
+								<td><img src="img/android_logo.png"  class="transparent" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent"  /></td>
+								<td><img src="img/windows_logo.png"  class="transparent" /></td>
+							</tr>
+							<tr>
+								<td colspan="4"><h2 class="fragment">HTML/JS/CSS</h2></td>
+							</tr>
+							<tr>
+								<td><img src="img/xcode_logo.png" class="transparent" /></td>
+								<td><img src="img/eclipse_logo_android.png"  class="transparent" /></td>
+								<td><img src="img/eclipse_logo_blackberry.png"  class="transparent" /></td>
+								<td><img src="img/visual_studio_logo.png"  class="transparent" /></td>
+							</tr>
+						</table>	
+					</section>
+
 					<section class="keynote-intro">
 						<p>Adobe Edge Tools &amp; Services</p>
 						<img src="img/phonegap.png" class="transparent" />
 						<h3 class="text-pg">PhoneGap</h3>
-						<h4>1,000,000 downloads</h4>
+					</section>
+
+					<section class="product-intro">
+						<img src="img/phonegap.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-pg">PhoneGap SDK</h1>
+							<p>An SDK to build mobile apps with web technologies</p>
+						</div>
+					</section>
+
+					<section>
+						<img src="img/bbc.png"  class="transparent" />
+					</section>
+
+					<section>
+						<img src="img/untappd.png"  class="transparent" />
+					</section>
+
+					<section class="question">
+						<h1><br />Still not <strong>great</strong>.</h1>
+					</section>
+
+
+
+					
+
+
+					<section>
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent"  /></td>
+								<td><img src="img/android_logo.png"  class="transparent" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent"  /></td>
+								<td><img src="img/windows_logo.png"  class="transparent" /></td>
+							</tr>
+							<tr>
+								<td colspan="4"><h2>HTML/JS/CSS</h2></td>
+							</tr>
+							<tr>
+								<td><img src="img/xcode_logo.png" class="transparent" /></td>
+								<td><img src="img/eclipse_logo_android.png"  class="transparent" /></td>
+								<td><img src="img/eclipse_logo_blackberry.png"  class="transparent" /></td>
+								<td><img src="img/visual_studio_logo.png"  class="transparent" /></td>
+							</tr>
+						</table>	
+					</section>
+					<section>
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent"  /></td>
+								<td><img src="img/android_logo.png"  class="transparent" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent"  /></td>
+								<td><img src="img/windows_logo.png"  class="transparent" /></td>
+							</tr>
+							<tr>
+								<td colspan="4"><h2>HTML/JS/CSS</h2></td>
+							</tr>
+							<tr>
+								<td colspan="4"><h2 class="fragment"><strong>Whatever I want</strong></h2></td>
+							</tr>
+						</table>	
 					</section>
 
 					<section class="keynote-intro">
@@ -323,12 +743,67 @@
 						<h3 class="text-pg">PhoneGap Build</h3>
 						<h4>Package Mobile Apps in the Cloud</h4>
 					</section>
+				</section>
+
+
+				<section>
+
+					<section class="product-intro">
+						<img src="img/dreamweaver.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-dw">Dreamweaver</h1>
+							<p>The HTML/CSS/JS tool you all know...</p>
+						</div>
+					</section>
+					<section class="product-intro">
+						<img src="img/dreamweaver.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-dw">Dreamweaver</h1>
+							<ul>
+								<li class="fragment">Expanded support for HTML5 form, audio and video elements</li>
+								<li class="fragment">Integration with Adobe Edge Animate</li>
+								<li class="fragment">more…</li>
+							</ul>	
+						</div>
+					</section>
+					<section class="product-intro">
+						<img src="img/dreamweaver.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-dw">Dreamweaver</h1>
+							<p>The HTML/CSS/JS tool you all know...</p>
+							<p class="fragment"><em>and love?</em></p>
+						</div>
+					</section>
+
+					<section class="question">
+						<h2><br /><strong>Modern</strong><br />web developers<br /> need options.</h2>
+					</section>
 
 					<section class="keynote-intro">
 						<p>&nbsp;</p>
 						<img src="img/brackets_logo.png" class="transparent" />
 						<h3 class="text-brackets">Brackets</h3>
 					</section>	
+
+					<section>
+						<h2 class="text-brackets">Brackets</h2>
+						<ul>
+							<li>Lightweight</li>
+							<li>Web-centric editor</li>
+							<li>Written in HTML/JS/CSS</li>
+							<li>Open Source</li>
+						</ul>
+					</section>
+
+					<section class="demo">
+						<img src="img/brackets_screenshot.png" class="transparent">
+					</section>
+					<section class="demo">
+						<img src="img/edge_code_screenshot.png"  class="transparent" />
+						<br />
+						<h2>Demo</h2>
+						<h3  class="text-brackets">Brackets</h3>
+					</section>
 
 					<section class="keynote-intro">
 						<p>Adobe Edge Tools &amp; Services</p>
@@ -337,18 +812,258 @@
 						<h4>Code the  web</h4>
 					</section>
 
+					<section>
+						<img src="img/edge_code_screenshot2.png" class="transparent">
+					</section>
+
+					<section class="question">
+						<h2><br />What's the <strong>difference</strong>?</h2>
+					</section>
+
+					<section>
+						<img src="img/edge_code_screenshot_ewf.png" class="transparent">
+						<h2 class="text-wf">Edge Web Fonts Extension for Adobe Edge Code</h2>
+					</section>
+
+					<section>
+						<img src="img/edge_code_screenshot_pgb.png" class="transparent">
+						<h2 class="text-pg">PhoneGap Extension for Adobe Edge Code</h2>
+					</section>	
+
+					<section class="keynote-intro">
+						<p>Adobe Edge Tools &amp; Services</p>
+						<img src="img/edge_code_mn.png" class="transparent" />
+						<h3 class="text-code">Adobe Edge Code</h3>
+						<h4>Code the  web</h4>
+					</section>
+				</section>
+				<section>
+
+					<style>
+
+						.font-name{
+							font-size: 1.3em;
+							line-height: 1.1;
+						}
+						.font-arial{
+							font-family: "Arial";
+						}
+						.font-helvetica{
+							font-family: "helvetica";
+						}
+						.font-tnr{
+							font-family: "Times New Roman";
+						}
+						.font-times{
+							font-family: "Times";
+						}
+						.font-cn{
+							font-family: "Courier New";
+						}
+						.font-verdana{
+							font-family: "Verdana";
+						}
+						.font-georgia{
+							font-family: "Georgia";
+						}
+						.font-trebuchet{
+							font-family: "Trebuchet MS";
+						}
+						.font-impact{
+							font-family: "Impact";
+						}
+						.font-gillsans{
+							font-family: "Gill Sans";
+						}
+
+						.font-genericsans{
+							font-family: sans-serif;
+						}
+
+					</style>
+
+
+					<section>
+						<div class="font-name font-arial">Arial</div>
+						<div class="font-name font-helvetica">Helvetica</div>
+						<div class="font-name font-tnr">Times New Roman</div>
+						<div class="font-name font-times">Times</div>
+						<div class="font-name font-cn">Courier New</div>
+						<div class="font-name font-verdana">Verdana</div>
+						<div class="font-name font-georgia">Georgia</div>
+						<div class="font-name font-trebuchet">Trebuchet MS</div>
+						<div class="font-name font-impact">Impact</div>
+						<div class="font-name font-gillsans">Gill Sans</div>
+					</section>
+
+					<section>
+						<h1><br />The web needs fonts</h1>
+					</section>	
+
+					<section>
+						<h1><br />Webfonts to the rescue</h1>
+					</section>	
+					<section class="demo">
+						<img src="img/wf_moon.png" />
+						<br />
+						<br />
+						<p style="text-align:center"><a href="http://lostworldsfairs.com/moon/">http://lostworldsfairs.com/moon/</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/wf_eldorado.png" />
+						<br />
+						<br />
+						<p style="text-align:center"><a href="http://lostworldsfairs.com/eldorado/">http://lostworldsfairs.com/eldorado/</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/jeans.png" />
+						<br />
+						<br />
+						<p style="text-align:center"><a href="http://hiutdenim.co.uk/">http://hiutdenim.co.uk/</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/newyorker.png" />
+						<br />
+						<br />
+						<p style="text-align:center"><a href="http://www.newyorker.com/">http://www.newyorker.com/</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/takeout.png" />
+						<br />
+						<br />
+						<p style="text-align:center"><a href="http://welcometotakeout.com/">http://welcometotakeout.com/</a></p>
+					</section>
+
+
 					<section class="keynote-intro">
 						<p>Adobe Edge Tools &amp; Services</p>
 						<img src="img/typekit.png" class="transparent" />
 						<h3 class="text-typekit">Typekit</h3>
 						<h4>High Quality Fonts for the Web</h4>
 					</section>
-
 					<section class="keynote-intro">
 						<p>Adobe Edge Tools &amp; Services</p>
 						<img src="img/edge_web_fonts_mn.png" class="transparent" />
 						<h3 class="text-wf">Adobe Edge Web Fonts</h3>
 						<h4>Get Started with Free Web Fonts</h4>
+					</section>
+				</section>
+				<section>
+
+					<style>
+						#screens_crt{
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							z-index: 100;
+						}
+						#screens_laptop{
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							z-index: 0;
+							z-index: 100;
+						}
+						#screens_iphone{
+							position: absolute;
+							top: 0;
+							left: 300px;
+							z-index: 50;
+						}
+						#screens_aphone{
+							position: absolute;
+							top: 0;
+							left: 450px;
+							z-index: 50;
+						}
+						#screens_tablet{
+							position: absolute;
+							top: 175px;
+							left: 50px;
+							z-index: 175;
+						}
+						#screens_tablet_ls{
+							position: absolute;
+							top: 175px;
+							
+							z-index: 175;
+						}
+						#screens_ereader{
+							position: absolute;
+							top: 175px;
+							right: 50px;
+							z-index: 175;
+						}
+						#screens_tv{
+							position: absolute;
+							top: 100px;
+							z-index: 0;
+						}
+
+					</style>
+
+
+					<section>
+						<div id="screens_image_container">
+							<img src="img/crt.png" id="screens_crt" class="transparent" />
+							<img src="img/laptop.png" id="screens_laptop" class="transparent" />
+							<img src="img/iphone.png" id="screens_iphone" class="transparent" />
+							<img src="img/aphone.png" id="screens_aphone" class="transparent" />
+							<img src="img/tablet.png" id="screens_tablet" class="transparent" />
+							<img src="img/tablet_ls.png" id="screens_tablet_ls" class="transparent" />
+							<img src="img/ereader.png" id="screens_ereader" class="transparent" />
+							<img src="img/tv.png" id="screens_tv" class="transparent" />
+						</div>
+					</section>
+
+					<section>
+						<img src="img/browser_chart.png"  class="transparent" />
+						<small>Source: ComScore survey 2012</small>
+					</section>
+
+					<section class="question"> 
+						<h1><strong>3.5 Billion</strong></h1>
+						<h2>Screens with web content</h2>
+					</section>
+
+					<section class="question"> 
+						<h2><br />Ignore the issue?</h2>
+						
+					</section>
+					<section class="question"> 
+						<h2><br />Website + Mobile?</h2>
+						
+					</section>
+					<section class="question"> 
+						<h2><br />Mobile App?</h2>
+						
+					</section>
+					<section class="question"> 
+						<h2><br />Responsive Web Design</h2>
+						
+					</section>
+
+					<section class="question"> 
+						<h2>Responsive Design</h2>
+						<img src="img/edge_reflow_concept.png" class="transparent" />
+					</section>
+
+					<section class="question"> 
+						<h1>Where are the <strong>tools</strong> to do this?</h1>
+					</section>
+
+					<section class="question"> 
+						<img src="img/photoshop.png" width="260" class="transparent" />
+						<img src="img/illustrator.png" width="260"  class="transparent" />
+						<br />
+						<img src="img/fireworks.png" width="260"  class="transparent" />
+					</section>
+
+					<section class="question"> 
+						<img src="img/dreamweaver.png" class="transparent" />
+					</section>
+					<section class="question"> 
+						<img src="img/indesign.png" class="transparent" />
 					</section>
 
 					<section class="keynote-intro">
@@ -358,6 +1073,73 @@
 						<h4>Design the Responsive Web</h4>
 					</section>
 
+					<section>
+						<img src="img/edge_reflow_screenshot.png"  class="transparent" />
+					</section>
+
+					<section class="demo">
+						<img src="img/edge_reflow_mn.png"  class="transparent" />
+						<br />
+						<h2>Demo</h2>
+						<h3 class="text-reflow">Adobe Edge Reflow</h3>
+					</section>
+
+					<section>
+						<img src="img/future.png"/>
+						<br />
+						<small>Source: <a href="http://www.asymco.com/2012/01/17/the-rise-and-fall-of-personal-computing/">asymco.com</a></small>
+					</section>
+
+					<section>
+						<h2>Mobile Engagement</h2>
+						<ul>
+							<li>Paypal mobile payments:
+								<ul>
+									<li class="fragment">2009 - $141,000,000</li>
+									<li class="fragment">2011- $4,000,000,000</li>
+								</ul>
+							</li>		
+						</ul>
+						<br /><br /><br /><br /><br /><br /><br />
+						<small>Source: <a href="http://www.lukew.com/">www.lukew.com</a></small>
+					</section>
+					<section>
+						<h2>Mobile Engagement</h2>
+						<ul>
+							<li class="fragment">Fab - 2X more likely to buy on mobile</li>
+							<li class="fragment">Financial Times - 2x more likely to subscribe</li>
+							<li class="fragment">Flipboard - 3x more likely to engage</li>
+						</ul>
+						<br /><br /><br /><br /><br /><br /><br />
+						<small>Source: <a href="http://www.lukew.com/">www.lukew.com</a></small>
+					</section>
+
+					<section class="question"> 
+						<h2><br /><br />Mobile is not <br />the <strong>distant</strong> future. </h2>
+					</section>
+					<section class="question"> 
+						<h2><br /><br />Mobile is not <br />the <strong>future</strong>. </h2>
+					</section>
+					<section class="question"> 
+						<h2><br /><br />Mobile is the <br /><strong>present</strong>. </h2>
+					</section>
+					<section class="question"> 
+						<h2><br /><br />There are <br />hearts, minds and <strong>dollars</strong> <br />at stake.</h2>
+					</section>
+					<section class="question"> 
+						<h2><br /><br />If you can do it <strong>right</strong>. </h2>
+					</section>
+					<section class="product-intro">
+						<img src="img/edge_reflow_mn.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-reflow">Adobe Edge Reflow</h1>
+							<p>Design the Responsive  Web</p>
+						</div>
+					</section>
+
+
+				</section>
+				<section>
 					<section class="keynote-edge">
 						<h1>Adobe Edge Tools &amp; Services</h1>
 						<img src="img/edge_animate_mn.png" width="170" class="transparent" />
@@ -432,13 +1214,196 @@
 						<h2><br />Web professionals <br />need a <em>better</em> medium.</h2>
 					</section>	
 							
-					<section id="webstandards">
+					<section class="webstandards">
 						<img src="img/w3c.png" class="transparent w3c" />
 						<img src="img/webkit.png" class="transparent webkit" />
-					</section>	
+					</section>
+
 				</section>
 
+				<section>
+					<section>
+						<h1>In the beginning....</h1>
+					</section>
+					<section>
+						<img src="img/graphicalweb.png" class="fragment" />
+						<h2>...there was the comp</h2>
+					</section>
+					<section>
+						<img src="img/graphicalweb_pointers.png" class="transparent" />
+					</section>
+					<section class="demo">
+						<img src="img/graphicalweb.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>Old Style</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/graphicalweb/1.html" target="_new">Flat Image</a></p>
+					</section>
+					<section>
+						<h2>First Wave
+						<h3>CSS 1 &amp; 2</h3>
+						<ul>
+							<li>Styling</li>
+							<li>Positioning</li>
+							<li>Backgrounds</li>
+						</ul>
+						<h2>Browser</h2>
+						<ul>
+							<li>Support for Transparent PNG</li>
+						</ul>	
+					</section>
+					<section class="demo">
+						<img src="img/graphicalweb.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>First Wave</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/graphicalweb/2-1.html" target="_new">CSS at first</a></p>
+					</section>
+					<section>
+						<h2>Modern Era</h2>
+						<h3>CSS 3</h3>
+						<ul>
+							<li>Webfonts</li>
+							<li>Text Shadow</li>
+						</ul>
+						<h2>Browser</h2>
+						<ul>
+							<li>Support for SVG</li>
+						</ul>		
+					</section>
+					<section class="demo">
+						<img src="img/graphicalweb.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>Modern Era</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/graphicalweb/3.html" target="_new">Demo</a></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Just around the corner...</h1>
+					</section>
+					<section>
+						<h2>Near Future</h2>
+						<ul>
+							<li>CSS Filters</li>
+							<li>CSS Regions</li>
+						</ul>
+					</section>
+					<section class="demo">
+						<img src="img/cssfilters.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>CSS Filters</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/cssstandards/css-filters/index.html" target="_new">Demo</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/cssregions.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>CSS Regions</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/cssstandards/css-regions/index.html" target="_new">Demo</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/graphicalweb.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>Near Future</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/graphicalweb/3-1.html" target="_new">Demo</a></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Maybe a little further out...</h1>
+					</section>
+					<section>
+						<h2>Future</h2>
+						<ul>
+							<li>CSS Exclusions</li>
+							<li>CSS Custom Filters</li>
+						</ul>
+					</section>
+					<section class="demo">
+						<img src="img/cssexclusions.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>CSS Exclusions</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/cssstandards/css-exclusions/index.html" target="_new">Demo</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/csscustomfilters.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>CSS Custom Filters</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/cssstandards/css-customfilters/index.html" target="_new">Demo</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/filter_lab_screenshot.png" />
+						<h2>Demo</h2>
+						<h3>CSS Filter Lab by Adobe</h3>
+						<p style="text-align:center;"><a href="http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/" target="_new">Demo</a></p>
+					</section>
+					<section class="demo">
+						<img src="img/graphicalweb.png"  />
+						<br />
+						<h2>Demo</h2>
+						<h3>Future</h3>
+						<p style="text-align:center;"><a href="http://conf.dev/createtheweb/graphicalweb/4.html" target="_new">Demo</a></p>
+					</section>
+					
+				</section>	
 				<section>	
+
+					<section class="product-intro">
+						<h2><br />We're trying to make the web a more expressive place.</h2>
+					</section>
+					<section>
+						<img src="img/cssregions.png" class="transparent" />
+						<h2>Near Future</h2>
+					</section>
+					<section>
+						<img src="img/cssexclusions.png" class="transparent" />
+						<img src="img/csscustomfilters.png" class="transparent" />
+						<h2>Future</h2>
+					</section>
+				</section>	
+
+				<section>
+					<section>
+						<h1><br />Conclusions</h1>
+					</section>
+
+					<section class="question">
+						<h2><br />We want to help build a <br /> <em>better</em> medium.</h2>
+					</section>
+					<section class="webstandards">
+						<img src="img/w3c.png" class="transparent w3c" />
+						<img src="img/webkit.png" class="transparent webkit" />
+					</section>
+					<section class="question">
+						<h2><br />We want to provide <br /> <em>better</em> tools.</h2>
+					</section>
+					<section class="keynote-edge">
+						<h1>Adobe Edge Tools &amp; Services</h1>
+						<img src="img/edge_animate_mn.png" width="170" class="transparent" />
+						<img src="img/edge_code_mn.png" width="170" class="transparent" />
+						<img src="img/edge_inspect_mn.png" width="170" class="transparent" />
+						<img src="img/edge_reflow_mn.png" width="170" class="transparent" />
+						<img src="img/edge_web_fonts_mn.png" width="170" class="transparent" />
+						<img src="img/typekit.png" width="170" class="transparent" />
+						<img src="img/phonegap_build_mn.png" width="170" class="transparent" />
+					</section>
+					<section class="question">
+						<h2><br />We want to make it <em>easier</em> <br />for it to be a win-win relationship.</h2>
+					</section>
+					<section class="product-intro">
+						<img src="img/creative_cloud.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-cc">Creative Cloud</h1>
+							<p>Subscription to Adobe Software</p>
+						</div>
+					</section>		
+
 					
 					<section>
 						<h2>Questions, Comments, Feedback?</h2>
