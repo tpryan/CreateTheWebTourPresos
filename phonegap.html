@@ -1,0 +1,603 @@
+<!doctype html>  
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>PhoneGap - Create The Web</title>
+		<meta name="description" content="A template written in reveal.">
+		<meta name="author" content="Terrence Ryan">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/theme/tpryan.css" id="theme">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<script>
+			// If the query includes 'print-pdf' we'll use the PDF print sheet
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<img src="img/adobe.gif" class="adobelogo" />
+		<div class="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<section class="title">
+						<h1><br />PhoneGap</h1>
+						<hr />
+						<h2>Mobile Apps with HTML</h2>
+						<br />
+					</section>
+
+					<section class="question">
+						<h2><br /><br />Who are <strong>you</strong>?</h2>
+					</section>
+					<section class="speakers">
+						<div class="speaker">
+							<br /><br /><br /><br />
+							<img src="img/terry.png" width="180" />
+							<h1>Terry Ryan</h1>
+							<p>Education Evangelist</p>
+						</div>
+
+					</section>
+				</section>
+
+
+				<section>	
+
+					<!-- Phonegap animation styles -->
+					<style type="text/css">
+						.phonegap_table{
+							width: 100%;
+						}
+
+						.phonegap_table h4{
+							text-shadow: none;
+						}
+
+						.reveal section .phonegap_table img{
+							margin-top: 0;
+						}
+						.phonegap_table td{
+							text-align: center;
+							width: 25%;
+						}
+						.phonegap_table td h2, .phonegap_table td h4{
+							margin-top: 10px;
+							text-align: center;
+						}
+
+						.phonegap_table .android{
+							color: #A4C639;
+						}
+
+						.phonegap_table .objc{
+							color: #51a0ff;
+						}
+
+						.phonegap_table .bb{
+							color: #666666;
+						}
+
+						.phonegap_table .msred{
+							color: red;
+						}
+
+						.phonegap_table .msgreen{
+							color: green;
+						}
+
+						.phonegap_table .msblue{
+							color: blue;
+						}
+
+						.phonegap_table .msorange{
+							color: orange;
+						}
+					</style>
+
+					<section>
+
+						
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent fragment" /></td>
+								<td><img src="img/android_logo.png"  class="transparent fragment" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent fragment" /></td>
+								<td><img src="img/windows_logo.png"  class="transparent fragment" /></td>
+							</tr>
+							<tr>
+								<td><h4 class="fragment objc">Objective C</h4></td>
+								<td><h4 class="fragment android">Android Flavored Java</h4></td>
+								<td><h4 class="fragment bb">BlackBerry Flavored Java</h4></td>
+								<td><h4 class="fragment"><span class="msred">Whatever</span> <span class="msgreen">Microsoft is </span> <span class="msblue">doing </span> <span class="msorange">now</span></h4></td>
+							</tr>
+							<tr>
+								<td><img src="img/xcode_logo.png" class="transparent fragment" /></td>
+								<td><img src="img/eclipse_logo_android.png"  class="transparent fragment" /></td>
+								<td><img src="img/eclipse_logo_blackberry.png"  class="transparent fragment" /></td>
+								<td><img src="img/visual_studio_logo.png"  class="transparent fragment" /></td>
+							</tr>
+						</table>	
+					</section>
+
+					<section>
+
+						
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent"  /></td>
+								<td><img src="img/android_logo.png"  class="transparent" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent"  /></td>
+								<td><img src="img/windows_logo.png"  class="transparent" /></td>
+							</tr>
+							<tr>
+								<td colspan="4"><h2 class="fragment">HTML/JS/CSS</h2></td>
+							</tr>
+							<tr>
+								<td><img src="img/xcode_logo.png" class="transparent" /></td>
+								<td><img src="img/eclipse_logo_android.png"  class="transparent" /></td>
+								<td><img src="img/eclipse_logo_blackberry.png"  class="transparent" /></td>
+								<td><img src="img/visual_studio_logo.png"  class="transparent" /></td>
+							</tr>
+						</table>	
+					</section>
+
+					<section class="question">
+						<h2><br /><br />Why do we need <strong class="text-pg">native</strong>?</h2>
+					</section>
+					<section>
+						<img src="img/camera.png"  class="transparent fragment" />
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="img/compass.png"  class="transparent fragment" />
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="img/accelerameter.png"  class="transparent fragment" />
+						
+					</section>
+					<section>
+						<img src="img/contacts.png"  class="transparent fragment" />
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="img/folder.png"  class="transparent fragment" />
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="img/osrelated.png"  class="transparent fragment" />
+						
+					</section>
+					<section class="question">
+						<h2><br /><br />Access to <strong class="text-pg">device components</strong> and <strong class="text-pg">OS API’s</strong></h2>
+					</section>
+					<section>
+						<img src="img/appstore.png"  class="transparent fragment" />
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="img/play.png"  class="transparent fragment" />
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<img src="img/bbworld.png"  class="transparent fragment" />
+						
+					</section>
+					<section class="question">
+						<h2><br /><br />Access to <strong class="text-pg">app stores</strong>.</h2>
+					</section>
+
+					<section class="product-intro">
+						<img src="img/phonegap.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-pg">PhoneGap SDK</h1>
+							<p>An SDK to build mobile apps with web technologies</p>
+						</div>
+					</section>
+
+					<section class="question">
+						<h2><br /><strong class="text-pg">PhoneGap</strong> powers native applications using <strong class="text-pg">HTML/JS/CSS</strong>.</h2>
+					</section>
+					<section class="question">
+						<h2><br /><strong class="text-pg">PhoneGap</strong> gives access to <strong class="text-pg">components</strong> and <strong class="text-pg">API’s</strong>.</h2>
+					</section>
+					<section class="question">
+						<h2><br /><strong class="text-pg">PhoneGap</strong> Apps can be distributed in <strong class="text-pg">stores</strong>.</h2>
+					</section>
+
+					<section>
+
+						<style>
+							.reveal .small{
+								width: 80px;
+								margin: 0 0 0 65px;
+								text-align: center;
+							}
+						</style>
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent"  /></td>
+								<td><img src="img/android_logo.png"  class="transparent" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent"  /></td>
+								<td><img src="img/windows_logo.png"  class="transparent" /></td>
+							</tr>
+							<tr>
+								<td><img src="img/phonegap.png" class="transparent small"  /></td>
+								<td><img src="img/phonegap.png"  class="transparent small" /></td>
+								<td><img src="img/phonegap.png"  class="transparent small"  /></td>
+								<td><img src="img/phonegap.png"  class="transparent small" /></td>
+							</tr>
+							<tr>
+								<td><img src="img/xcode_logo.png" class="transparent" /></td>
+								<td><img src="img/eclipse_logo_android.png"  class="transparent" /></td>
+								<td><img src="img/eclipse_logo_blackberry.png"  class="transparent" /></td>
+								<td><img src="img/visual_studio_logo.png"  class="transparent" /></td>
+							</tr>
+						</table>	
+					</section>
+
+					<style>
+						.reveal .features th{
+							text-shadow: none;
+							width: 130px;
+
+						}
+
+						.reveal .features tr:nth-child(2n) {
+						  background-color: rgba(100,100,100,.5);
+						}
+
+						.features thead th{
+							font-size: 18px;
+							text-align: center;
+							line-height: 1;
+							vertical-align: bottom;
+							padding-top: 10px;
+						}
+						.features thead tr{
+							background-color: rgba(255,255,255,1);
+							color: #000000;
+
+						}
+
+
+						.reveal .features tbody th{
+							width: 300px;
+							font-size: 16px;
+							line-height: 1.3;
+							height: 10px;
+							padding: 0;
+							margin: 0;
+							text-align: right;
+						}
+
+						.reveal .features td{
+							line-height: 1.3;
+							text-align: center;
+							font-size: 20px;
+							height: 10px;
+							padding: 0;
+							margin: 0;
+						}
+
+						.supports{
+							color: #00FF00;
+						}
+
+						.nosupports{
+							color: #FF0000;
+						}
+
+					</style>
+					<section>
+						<table class="features">
+							<thead>
+								<tr>
+									<th></th>
+									<th>iPhone / iPhone 3G</th>
+									<th>iPhone 3GS and newer</th>
+									<th>Android</th>
+									<th>Blackberry OS 5.x</th>
+									<th>Blackberry OS 6.0+</th>
+									<th>WebOS</th>
+									<th>Windows Phone <br />7 + 8</th>
+									<th>Symbian</th>
+									<th>Bada</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>Accelerometer</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>Camera</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>Compass</th>
+									<td class="nosupports">&#x2717;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>Contacts</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>File</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="nosupports">&#x2717;</td>
+								</tr>
+								<tr>
+									<th>Geolocation</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>Media</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="nosupports">&#x2717;</td>
+									<td class="nosupports">&#x2717;</td>
+								</tr>
+								<tr>
+									<th>Network</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>Notification (Alert)</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>Notification (Sound)</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>Notification (Vibration)</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+								</tr>
+								<tr>
+									<th>Storage</th>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="supports">&#x2713;</td>
+									<td class="nosupports">&#x2717;</td>
+								</tr>
+
+							</tbody>	
+						</table>	
+					</section>	
+
+					<section>
+						<img src="img/bbc.png"  class="transparent" />
+					</section>
+
+					<section>
+						<img src="img/untappd.png"  class="transparent" />
+					</section>
+					
+				</section>	
+				<section>
+					<section class="question">
+						<h1><br />Still not <strong>great</strong>.</h1>
+					</section>
+
+					<section>
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent"  /></td>
+								<td><img src="img/android_logo.png"  class="transparent" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent"  /></td>
+								<td><img src="img/windows_logo.png"  class="transparent" /></td>
+							</tr>
+							<tr>
+								<td colspan="4"><h2>HTML/JS/CSS</h2></td>
+							</tr>
+							<tr>
+								<td><img src="img/xcode_logo.png" class="transparent" /></td>
+								<td><img src="img/eclipse_logo_android.png"  class="transparent" /></td>
+								<td><img src="img/eclipse_logo_blackberry.png"  class="transparent" /></td>
+								<td><img src="img/visual_studio_logo.png"  class="transparent" /></td>
+							</tr>
+						</table>	
+					</section>
+					<section>
+
+						<table class="phonegap_table">
+							<tr>
+								<td><img src="img/ios_logo.png" class="transparent"  /></td>
+								<td><img src="img/android_logo.png"  class="transparent" /></td>
+								<td><img src="img/blackberry_logo.png"  class="transparent"  /></td>
+								<td><img src="img/windows_logo.png"  class="transparent" /></td>
+							</tr>
+							<tr>
+								<td colspan="4"><h2>HTML/JS/CSS</h2></td>
+							</tr>
+							<tr>
+								<td colspan="4"><h2 class="fragment"><strong>Whatever I want</strong></h2></td>
+							</tr>
+						</table>	
+					</section>
+
+					<section>
+						<img src="img/phonegap_build_abstract.png" style="padding: 20px 20px 0 0;"/>
+						<h2 class="text-pg">PhoneGap Build</h2>
+					</section>
+
+					<section class="product-intro">
+						<img src="img/phonegap_build_mn.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-pg">PhoneGap Build</h1>
+							<p>Package Mobile Apps in the Cloud</p>
+						</div>
+					</section>
+
+					<section>
+						<img src="img/phonegap_build_screenshot.png" class="transparent"/>
+						<h2 class="text-pg">PhoneGap Build</h2>
+					</section>
+
+					<section class="demo">
+						<a href="http://build.phonegap.com" target="_blank">
+							<img src="img/phonegap_build_mn.png"  class="transparent" />
+						</a>
+						<br />
+						<h2>Demo</h2>
+						<h3 class="text-pg">PhoneGap Build</h3>
+						<p style="text-align:center;"><a href="http://build.phonegap.com" target="_new">build.phonegap.com</a></p>
+					</section>
+					
+
+					<section class="product-intro">
+						<img src="img/phonegap_build_mn.png"  class="transparent" />
+						<div class="text-holder">
+							<h1 class="text-pg">PhoneGap Build</h1>
+							<p>Package Mobile Apps in the Cloud</p>
+						</div>
+					</section>
+
+				</section>			
+				
+
+
+				<section>	
+					<section>
+						<h1><br />Conclusions</h1>
+					</section>
+
+					<section class="question">
+						<h2><br />PhoneGap enables native abled apps in <strong class="text-pg">HTML CSS JS</strong></h2>
+					</section>
+
+					<section class="question">
+						<h2><br />Allowing you to leverage your <strong class="text-pg">web experience</strong>.</h2>
+					</section>
+
+					<section class="question">
+						<h2><br />It's <strong class="text-pg">not</strong> for every app.</h2>
+					</section>
+
+					<section class="question">
+						<h2><br />But it can be a great <strong class="text-pg">on-ramp</strong> to mobile apps</h2>
+					</section>
+
+					<section>
+						<h2>Questions, Comments, Feedback?</h2>
+						
+						<p>Preso will be up at: <br />
+						<a href="http://terrenceryan.com/createtheweb">http://terrenceryan.com/createtheweb</a></p> 
+					</section>
+				</section>	
+			</div>
+
+			<p id="twitter-call">Questions? #CreateTheWeb <img src="img/twitter.png" class="tpng"></p>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script src="js/config.js"></script>
+	</body>
+</html>
